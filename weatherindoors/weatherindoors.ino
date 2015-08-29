@@ -40,8 +40,7 @@ void loop()
   Serial.print("C");
   Serial.print(" Humidity:");
   Serial.print(humd, 1);
-  Serial.print("%");
+  Serial.print("%\n");
 
-  Serial.println();
   delay(1000);
 }
